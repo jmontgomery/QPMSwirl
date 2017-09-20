@@ -26,7 +26,7 @@
   Output:  Find the probability that a student would get a score above 63.
   AnswerChoices: 0.086;0.914;0.159;0.841
   CorrectAnswer: 0.914
-  AnswerTests: omnitest(correctExpr='0.914')
+  AnswerTests: omnitest(correctVal='0.914')
   Hint: You can use pnorm(), but don't forget to set lower.tail=FALSE 
 
 - Class: mult_question
