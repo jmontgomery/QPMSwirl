@@ -15,14 +15,14 @@
   AnswerTests: omnitest(correctExpr='-1')
   Hint: You just need to subtract the mean and divide by the standard deviation. 
 
-- Class: cmd_question
+- Class: mult_question
   Output:  Find the probability that a student would get a score above 63.
   AnswerChoices: 0.08634102;0.913659;0.1586553;0.8413447
   CorrectAnswer: 0.913659
   AnswerTests: omnitest(correctExpr='0.913659')
   Hint: You can use pnorm(), but don't forget to set lower.tail=FALSE 
 
-- Class: cmd_question
+- Class: mult_question
   Output:  Samantha plays a game with a jar of marbles, 15 black and 5 blue. She picks one marble out of the jar, records the color of it, and puts the marble back in the jar. Then Samanatha repeats this again and again until she has picked 20 marbles out of the jar. What is the probability that Samantha's experiment results in 4 or less blue marbles?
   AnswerChoices: 0.08634102;0.913659;0.1586553;0.8413447
   CorrectAnswer: 0.913659
