@@ -10,12 +10,6 @@
   Output: In this IPA, you will practice calculating probabilities. 
 
 - Class: cmd_question
-  Output: In a standard normal distribution, what is the respective mean and standard deviation?
-  AnswerChoices: 0,0;1,1;-1,1;1,0;0,1
-  CorrectAnswer: 0,1
-  AnswerTests: omnitest(correctExpr='0,1')
-
-- Class: cmd_question
   Output: On an exam, the scores are normally distributed with mean of 78 and standard deviation of 11.  Professor Montgomery gets a score of 67.  Find the z-score of this.
   CorrectAnswer: -1
   AnswerTests: omnitest(correctExpr='-1')
