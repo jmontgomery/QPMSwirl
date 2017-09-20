@@ -9,6 +9,13 @@
 - Class: text
   Output: In this IPA, you will practice calculating probabilities. 
 
+- Class: mult_question
+  Output: What is the capital of Canada?
+  AnswerChoices: Toronto;Montreal;Ottawa;Vancouver
+  CorrectAnswer: Ottawa
+  AnswerTests: omnitest(correctVal='Ottawa')
+  Hint: This city contains the Rideau Canal.
+
 - Class: cmd_question
   Output: On an exam, the scores are normally distributed with mean of 78 and standard deviation of 11.  Professor Montgomery gets a score of 67.  Find the z-score of this.
   CorrectAnswer: -1
